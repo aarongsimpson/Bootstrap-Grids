@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap Grids: Home</title>
+    <title>Bootstrap Grids: Grid 1</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,11 +12,10 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
    <!-- Convert this to an external style sheet -->
-    <link rel="stylesheet" href="https://use.typekit.net/mhj5wdi.css">
-    <link href="css/site.css" rel="stylesheet">
+<link href="css/site.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column h-100 homeBG">
+<body class="d-flex flex-column h-100">
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
@@ -28,10 +27,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Grid1.html">Grid 1</a>
+                    <a class="nav-link active" aria-current="page" href="/Grid1.html">Grid 1</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/Grid2.html">Grid 2</a>
@@ -63,9 +62,21 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container text-center mt-5">
-            <h1 class="text-center display-1 homeText">Bootstrap Grids</h1>
-            <h3 class="text-white">An Exercise in Bootstrap Layouts</h3>
+       <div class="container h-100 minHeight">
+            <div class="row row-cols-1 row-cols-md-2 gx-2 h-100 g-1">
+                <div class="col">
+                    <div class="bg-dark text-light h-100 p-3">
+                        <h1>COL ONE</h1>
+                        <p>Lorem ipsum dolor sit amet. Cum veniam animi ut minus sint qui voluptas tempore non reprehenderit autem vel aspernatur explicabo sit labore excepturi? Eos assumenda quia sed totam consequatur vel dignissimos nisi. Et itaque quae eum eveniet iste est odio reprehenderit. Et dolorem odit ut magnam nostrum sed eaque pariatur ut repellat veritatis qui nesciunt quisquam qui dignissimos quos ut galisum tenetur. </p><p>Est dolores laudantium id dolorum sunt ab officia tempora cum fuga odio. Sit libero commodi qui omnis alias eos unde quibusdam ea Quis rerum sed vero eius? In laudantium sunt nam quis error cum soluta sunt. Sed voluptatem dolor sit alias quidem aut quisquam animi 33 voluptas magni? </p><p>Et voluptate quis ad vitae aliquam sit tenetur unde est veniam tenetur aut veritatis quibusdam est provident soluta et ipsa accusantium. A veritatis vero 33 porro tenetur ab provident galisum  quidem rerum et accusamus autem quo amet necessitatibus. Ut internos omnis quo minus doloremque ut blanditiis alias quo eaque minima. Qui labore odio et aliquam laudantium  quas magnam aut rerum quos sed accusamus quisquam. </p>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-secondary text-light p-3">
+                        <h1>COL TWO</h1>
+                    </div>
+                </div>
+            </div>
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
